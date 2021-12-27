@@ -1,1 +1,2 @@
 Just adding some text to the Hello World file.
+Testing the VSC git commit feature.
