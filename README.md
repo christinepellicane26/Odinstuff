@@ -1,3 +1,3 @@
 # git_test
 
-Hello, Odin!
+This hot mess is just part of The Odin Project website practice.
