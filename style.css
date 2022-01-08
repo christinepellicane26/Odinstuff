@@ -5,15 +5,15 @@ body {
 
 .maincontainer {
     display: flex;
+    height: 80px;
     background-color: #1F2937;
     color: wheat;
-    padding: 50px;
+    padding: 30px;
+    font-size: 50px;
 }
 
 .maintext div {
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: x-large;
-    
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, bold;  
     
 }
 
@@ -49,9 +49,8 @@ body {
         border-radius: 50%;
         width: 130px;
         height: 90px;
-        margin-right: 500px;
-      
-        padding: 25px;
+        margin-right: 450px;
+        padding: 15px;
         color: white;
         text-align: center;
         background-color: rgba(34, 27, 27, 0.808);
