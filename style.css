@@ -28,6 +28,7 @@ body {
 }
 
 
+
 .flex-container .item {
 
         width: 80px;
@@ -37,19 +38,24 @@ body {
         color: white;
         text-align: justify;
         background-color: black;
+        box-shadow: 15px 15px 0 0 grey;
+        
 
       }
+
 
 .flex-container .push {
         font-size: 50pt;
         border-radius: 50%;
         width: 130px;
-        height: 100px;
+        height: 90px;
         margin-right: 500px;
+      
         padding: 25px;
         color: white;
         text-align: center;
-        background-color: rgba(71, 68, 68, 0.808);
+        background-color: rgba(34, 27, 27, 0.808);
+        box-shadow: -10px 15px 0 0 grey
 
       }
 
