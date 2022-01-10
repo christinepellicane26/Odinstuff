@@ -3,16 +3,17 @@ body {
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.maincontainer {
+.banner {
+    background: url('https://images.unsplash.com/photo-1555231955-348aa2312e19?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80');
     display: flex;
-    height: 80px;
+    height: 70px;
     background-color: #1F2937;
-    color: wheat;
+    color: black;
     padding: 30px;
-    font-size: 50px;
+    /* font-size: 50px; */
 }
 
-.maintext div {
+.bannertext div {
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, bold;  
     
 }
@@ -28,9 +29,12 @@ body {
 }
 
 
+.flex-container.p2 {
+    padding-inline-start: initial;
+    justify-self: left;
+}
 
 .flex-container .item {
-
         width: 80px;
         height: 30px;
         margin: 10px;
@@ -40,11 +44,10 @@ body {
         background-color: black;
         box-shadow: 15px 15px 0 0 grey;
         
-
       }
 
-
-.flex-container .push {
+      
+.flex-container .logo {
         font-size: 50pt;
         border-radius: 50%;
         width: 130px;
@@ -58,12 +61,16 @@ body {
 
       }
 
+   
+
+         
 
 .box {
     width: 100px;
     height: 25px;
     margin: 10px;
     padding: 25px;
+    border-radius: 70%;
     text-align: center;
     border: 5px solid black;
     font-size: medium;
@@ -71,7 +78,7 @@ body {
     background-color: peachpuff;
     display: inline-block;
     box-shadow: -10px 15px 0 0 rgb(250, 142, 142)
- 
+    
   }
 
   
